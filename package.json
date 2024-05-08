@@ -1,0 +1,14 @@
+{
+  "name": "taktix",
+  "version": "1.0.0",
+  "description": "Cycle time application for business",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Andrew J Barnes",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.2"
+  }
+}
