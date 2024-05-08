@@ -1,8 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';  // New import from React 18
+import CreateAccountForm from './components/CreateAccountForm';
 
-function App() {
-  return <h1>Hello from React</h1>;
-}
+const container = document.getElementById('root');
+const root = createRoot(container); // Create a root.
 
-ReactDOM.render(<App />, document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <div>
+      <CreateAccountForm />
+    </div>
+  </React.StrictMode>
+);
