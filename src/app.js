@@ -1,14 +1,14 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';  // New import from React 18
-import CreateAccountForm from './components/CreateAccountForm';
+import TaktItem from './components/TaktItem';
 
 const container = document.getElementById('root');
-const root = createRoot(container); // Create a root.
+const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
     <div>
-      <CreateAccountForm />
+      <TaktItem />
     </div>
   </React.StrictMode>
 );
